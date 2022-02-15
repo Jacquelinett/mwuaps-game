@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://8vyi1avdeq65"]
+
+[node name="Control" type="Control"]
+anchor_right = 1.874
+anchor_bottom = 1.798
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+color = Color(0, 0, 0, 1)

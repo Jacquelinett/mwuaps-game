@@ -1,0 +1,298 @@
+[gd_scene load_steps=41 format=3 uid="uid://hev4updgw1xk"]
+
+[ext_resource type="PackedScene" uid="uid://djnqnvwsbkifi" path="res://Maps/Map.tscn" id="1_dvgrl"]
+[ext_resource type="Texture2D" uid="uid://b5idsjm4v3sk1" path="res://Maps/AiriApartment/airi_apartment_floor.png" id="2_xxl1q"]
+[ext_resource type="PackedScene" uid="uid://cpdql8nd4yuks" path="res://Characters/Player.tscn" id="3_chl8w"]
+[ext_resource type="Texture2D" uid="uid://cfjwo4fsb3dll" path="res://Maps/AiriApartment/airi_apartment_desk.png" id="4_3j5g1"]
+[ext_resource type="Texture2D" uid="uid://cyp27wfr5yub2" path="res://Maps/AiriApartment/airi_apartment_sidewall.png" id="4_db0ee"]
+[ext_resource type="PackedScene" uid="uid://cuaa15bydlk62" path="res://Maps/Misc/Mirror.tscn" id="5_5shoq"]
+[ext_resource type="Texture2D" uid="uid://b53ye03omoyet" path="res://Maps/AiriApartment/airi_apartment_bathroom_mirror.png" id="5_bia3l"]
+[ext_resource type="Texture2D" uid="uid://cudcomwt2s7gi" path="res://Maps/AiriApartment/airi_apartment_bunk.png" id="5_pwds4"]
+[ext_resource type="Texture2D" uid="uid://c7pepi6umal6u" path="res://Maps/AiriApartment/airi_apartment_bunk_leg.png" id="6_es58a"]
+[ext_resource type="Texture2D" uid="uid://b4llq10bmobcc" path="res://Maps/AiriApartment/airi_apartment_bathroom_wall.png" id="7_bar6x"]
+[ext_resource type="Texture2D" uid="uid://ckpk4bye8bsp3" path="res://Maps/AiriApartment/airi_apartment_hidable_bathroom_wall.png" id="8_70qy6"]
+[ext_resource type="Texture2D" uid="uid://bv7yieconlm5x" path="res://Maps/AiriApartment/airi_apartment_closet.png" id="8_ft53g"]
+[ext_resource type="Texture2D" uid="uid://cs6dxemddq8yh" path="res://Maps/AiriApartment/airi_apartment_bathroom_sink.png" id="9_5hcj7"]
+[ext_resource type="PackedScene" uid="uid://k4qni8wgcetp" path="res://Maps/Misc/HidableWall.tscn" id="9_d5mw1"]
+[ext_resource type="Texture2D" uid="uid://d2st3omrpmwj2" path="res://Maps/AiriApartment/airi_apartment_toilet.png" id="10_wbkv0"]
+[ext_resource type="Texture2D" uid="uid://dnfp5t8g2d8ky" path="res://Maps/AiriApartment/airi_apartment_bathtub.png" id="11_7bstr"]
+[ext_resource type="Texture2D" uid="uid://bfbuvube71roq" path="res://Maps/AiriApartment/airi_apartment_bunk_closet_fringe.png" id="15_2romf"]
+[ext_resource type="Texture2D" uid="uid://bogpklq03yyht" path="res://Maps/AiriApartment/airi_apartment_bunk_bed_fringe.png" id="16_bbx5v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a53hj"]
+size = Vector2(330, 112.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1rlsr"]
+size = Vector2(246, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mi5k0"]
+size = Vector2(12, 259)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_71y7m"]
+size = Vector2(568.5, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lmo2u"]
+size = Vector2(11.5, 125.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1kleh"]
+size = Vector2(13, 27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_10tfq"]
+size = Vector2(12, 75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hw6wa"]
+size = Vector2(111, 33)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bd1jy"]
+size = Vector2(13, 51)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s3ymp"]
+size = Vector2(12.5, 7.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5lyol"]
+size = Vector2(39, 12)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvwnc"]
+size = Vector2(17.75, 11)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_fbhym"]
+a = Vector2(-8, -20)
+b = Vector2(92, 55)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ww1th"]
+a = Vector2(0, 1)
+b = Vector2(35, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cdc4o"]
+size = Vector2(127, 44)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ltmc"]
+size = Vector2(62, 55.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_euw5f"]
+size = Vector2(86, 37)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_128ka"]
+a = Vector2(0, 3)
+b = Vector2(0, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uhtmh"]
+size = Vector2(7, 134)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ignan"]
+size = Vector2(5, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pjf5r"]
+size = Vector2(5.75, 6)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8dwsn"]
+size = Vector2(30, 8)
+
+[node name="Map" instance=ExtResource( "1_dvgrl" )]
+
+[node name="Floor" type="Sprite2D" parent="." index="0"]
+position = Vector2(301, 157)
+texture = ExtResource( "2_xxl1q" )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Desk" type="Sprite2D" parent="." index="1"]
+position = Vector2(61, 139)
+texture = ExtResource( "4_3j5g1" )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Bunk" type="Sprite2D" parent="." index="2"]
+position = Vector2(142, 100)
+texture = ExtResource( "5_pwds4" )
+
+[node name="Mirror" parent="." index="3" instance=ExtResource( "5_5shoq" )]
+position = Vector2(362, 96)
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Detection Area" parent="Mirror" index="0"]
+position = Vector2(0, 41.25)
+
+[node name="Sprite" parent="Mirror" index="1"]
+position = Vector2(0, -14)
+texture = ExtResource( "5_bia3l" )
+
+[node name="Layer" type="Node2D" parent="." index="4"]
+y_sort_enabled = true
+
+[node name="Player" parent="Layer" index="0" instance=ExtResource( "3_chl8w" )]
+position = Vector2(281, 151)
+motion_mode = 0
+
+[node name="Bunk Leg Left" type="Sprite2D" parent="Layer" index="1"]
+position = Vector2(26, 195)
+texture = ExtResource( "6_es58a" )
+offset = Vector2(0.5, -32)
+
+[node name="Bunk Leg Right" type="Sprite2D" parent="Layer" index="2"]
+position = Vector2(93, 195)
+texture = ExtResource( "6_es58a" )
+offset = Vector2(0.5, -32)
+
+[node name="Closet" type="Sprite2D" parent="Layer" index="3"]
+position = Vector2(190, 158)
+texture = ExtResource( "8_ft53g" )
+offset = Vector2(0, -31)
+
+[node name="Bathroom Side Wall" type="Sprite2D" parent="Layer" index="4"]
+position = Vector2(363, 200)
+texture = ExtResource( "7_bar6x" )
+offset = Vector2(-0.5, -91)
+
+[node name="Bathroom Sink" type="Sprite2D" parent="Layer" index="5"]
+position = Vector2(363, 114)
+texture = ExtResource( "9_5hcj7" )
+
+[node name="Toilet" type="Sprite2D" parent="Layer" index="6"]
+position = Vector2(394, 154)
+texture = ExtResource( "10_wbkv0" )
+offset = Vector2(0, -16)
+
+[node name="Bathtub" type="Sprite2D" parent="Layer" index="7"]
+position = Vector2(362, 180)
+texture = ExtResource( "11_7bstr" )
+offset = Vector2(0, -12)
+
+[node name="Hidable Wall" parent="Layer" index="8" instance=ExtResource( "9_d5mw1" )]
+visible = false
+position = Vector2(363, 200)
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area" parent="Layer/Hidable Wall" index="0"]
+position = Vector2(-2.5, -46.5)
+
+[node name="Sprite" parent="Layer/Hidable Wall" index="1"]
+texture = ExtResource( "8_70qy6" )
+offset = Vector2(0, -45)
+
+[node name="Bunk Closet Fringe" type="Sprite2D" parent="." index="5"]
+position = Vector2(191, 75)
+texture = ExtResource( "15_2romf" )
+offset = Vector2(0.5, 0)
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Bunk Bed Fringe" type="Sprite2D" parent="." index="6"]
+position = Vector2(60, 118)
+texture = ExtResource( "16_bbx5v" )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Side Wall" type="Sprite2D" parent="." index="7"]
+position = Vector2(301, 157)
+texture = ExtResource( "4_db0ee" )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="8"]
+position = Vector2(1, -1)
+
+[node name="Back Wall Right" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+position = Vector2(424, 65.75)
+shape = SubResource( "RectangleShape2D_a53hj" )
+
+[node name="Back Wall Left" type="CollisionShape2D" parent="StaticBody2D" index="1"]
+position = Vector2(136, 29)
+shape = SubResource( "RectangleShape2D_1rlsr" )
+
+[node name="Left Wall" type="CollisionShape2D" parent="StaticBody2D" index="2"]
+position = Vector2(17, 176.5)
+shape = SubResource( "RectangleShape2D_mi5k0" )
+
+[node name="Bottom Wall" type="CollisionShape2D" parent="StaticBody2D" index="3"]
+position = Vector2(305.75, 298)
+shape = SubResource( "RectangleShape2D_71y7m" )
+
+[node name="Right Wall (Top)" type="CollisionShape2D" parent="StaticBody2D" index="4"]
+position = Vector2(583.25, 185.25)
+shape = SubResource( "RectangleShape2D_lmo2u" )
+
+[node name="Right Wall Bottom" type="CollisionShape2D" parent="StaticBody2D" index="5"]
+position = Vector2(583.5, 277.5)
+shape = SubResource( "RectangleShape2D_1kleh" )
+
+[node name="Bathroom Wall Right" type="CollisionShape2D" parent="StaticBody2D" index="6"]
+position = Vector2(411, 159.5)
+shape = SubResource( "RectangleShape2D_10tfq" )
+
+[node name="Bathroom Wall Bottom" type="CollisionShape2D" parent="StaticBody2D" index="7"]
+position = Vector2(362, 196)
+shape = SubResource( "RectangleShape2D_hw6wa" )
+
+[node name="Bathroom Wall Left (Bottom)" type="CollisionShape2D" parent="StaticBody2D" index="8"]
+position = Vector2(312.5, 171.5)
+shape = SubResource( "RectangleShape2D_bd1jy" )
+
+[node name="Bathroom Wall Left (Top)" type="CollisionShape2D" parent="StaticBody2D" index="9"]
+position = Vector2(312.75, 126.25)
+shape = SubResource( "RectangleShape2D_s3ymp" )
+
+[node name="Bathroom Sink" type="CollisionShape2D" parent="StaticBody2D" index="10"]
+position = Vector2(361.5, 128)
+shape = SubResource( "RectangleShape2D_5lyol" )
+
+[node name="Toilet" type="CollisionShape2D" parent="StaticBody2D" index="11"]
+position = Vector2(395.875, 154.5)
+shape = SubResource( "RectangleShape2D_kvwnc" )
+
+[node name="Stair Top" type="CollisionShape2D" parent="StaticBody2D" index="12"]
+position = Vector2(167, 67)
+shape = SubResource( "SegmentShape2D_fbhym" )
+
+[node name="Stair Bottom" type="CollisionShape2D" parent="StaticBody2D" index="13"]
+position = Vector2(167, 90)
+shape = SubResource( "SegmentShape2D_fbhym" )
+
+[node name="Stair Line" type="CollisionShape2D" parent="StaticBody2D" index="14"]
+position = Vector2(223, 144)
+shape = SubResource( "SegmentShape2D_ww1th" )
+
+[node name="Shelf" type="CollisionShape2D" parent="StaticBody2D" index="15"]
+position = Vector2(158.5, 140)
+shape = SubResource( "RectangleShape2D_cdc4o" )
+
+[node name="Desk" type="CollisionShape2D" parent="StaticBody2D" index="16"]
+position = Vector2(59, 146.25)
+shape = SubResource( "RectangleShape2D_3ltmc" )
+
+[node name="Shelf Top" type="CollisionShape2D" parent="StaticBody2D" index="17"]
+position = Vector2(133, 101.5)
+shape = SubResource( "RectangleShape2D_euw5f" )
+
+[node name="Bunk Fringe Stopper" type="CollisionShape2D" parent="StaticBody2D" index="18"]
+position = Vector2(160, 68)
+shape = SubResource( "SegmentShape2D_128ka" )
+
+[node name="Bunk Top Left" type="CollisionShape2D" parent="StaticBody2D" index="19"]
+position = Vector2(24.5, 115)
+shape = SubResource( "RectangleShape2D_uhtmh" )
+
+[node name="Shelf Leg" type="CollisionShape2D" parent="StaticBody2D" index="20"]
+position = Vector2(92.5, 141)
+shape = SubResource( "RectangleShape2D_ignan" )
+
+[node name="Bunk Right Leg" type="CollisionShape2D" parent="StaticBody2D" index="21"]
+position = Vector2(92.25, 196)
+shape = SubResource( "RectangleShape2D_pjf5r" )
+
+[node name="Bunk Left Leg" type="CollisionShape2D" parent="StaticBody2D" index="22"]
+position = Vector2(25.875, 196)
+shape = SubResource( "RectangleShape2D_pjf5r" )
+
+[node name="Table Leg" type="CollisionShape2D" parent="StaticBody2D" index="23"]
+position = Vector2(43, 178)
+shape = SubResource( "RectangleShape2D_8dwsn" )
+
+[editable path="Mirror"]
+[editable path="Layer/Hidable Wall"]

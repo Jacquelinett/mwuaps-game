@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://djnqnvwsbkifi"]
+
+[ext_resource type="Script" path="res://Maps/Map.gd" id="1_frbfp"]
+
+[node name="Map" type="Node2D"]
+texture_filter = 3
+script = ExtResource( "1_frbfp" )

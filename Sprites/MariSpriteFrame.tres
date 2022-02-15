@@ -1,0 +1,45 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://br2611t6xe6uh"]
+
+[ext_resource type="Texture2D" uid="uid://ji11udgmtrvl" path="res://Sprites/mari.png" id="1_njtje"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bnfhl"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(32, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fk8l5"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_txppa"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(64, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njcdy"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(96, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f2vst"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(128, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4d3x"]
+atlas = ExtResource( "1_njtje" )
+region = Rect2(160, 0, 32, 64)
+
+[resource]
+animations = [{
+"frames": [SubResource( "AtlasTexture_bnfhl" )],
+"loop": true,
+"name": &"Idle 2",
+"speed": 5.0
+}, {
+"frames": [SubResource( "AtlasTexture_fk8l5" )],
+"loop": true,
+"name": &"Idle 1",
+"speed": 5.0
+}, {
+"frames": [SubResource( "AtlasTexture_txppa" ), SubResource( "AtlasTexture_njcdy" ), SubResource( "AtlasTexture_f2vst" ), SubResource( "AtlasTexture_t4d3x" )],
+"loop": true,
+"name": &"Down",
+"speed": 6.0
+}]

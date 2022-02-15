@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuaa15bydlk62"]
+
+[ext_resource type="Script" path="res://Maps/Misc/Mirror.gd" id="1_ytlan"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jofwn"]
+size = Vector2(20, 7.5)
+
+[node name="Mirror" type="Area2D"]
+clip_children = true
+script = ExtResource( "1_ytlan" )
+
+[node name="Detection Area" type="CollisionShape2D" parent="."]
+clip_children = true
+position = Vector2(0, -10)
+shape = SubResource( "RectangleShape2D_jofwn" )
+
+[node name="Sprite" type="Sprite2D" parent="."]
+clip_children = true
+
+[connection signal="body_entered" from="." to="." method="_on_mirror_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_mirror_body_exited"]
